@@ -3,7 +3,7 @@ import { useLoaderData } from "react-router-dom";
 
 const Project = () => {
   const projects = useLoaderData();
-  console.log(projects);
+//   console.log(projects);
   return (
     <div className="font-serif my-5 md:mb-20 lg:mx-48 md:mx-32" id="project5">
         <h1 className="text-3xl text-center">My Projects</h1>
