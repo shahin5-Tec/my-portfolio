@@ -5,6 +5,7 @@ import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './Components/Home.jsx'
 import Project from './Components/Project.jsx'
+import Skills from './Components/Skills.jsx'
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
         element:<Project/>,
         loader:()=>fetch('project.json')
       },
+      {
+        path:'/skill',
+        element:<Skills/>,
+      }
     ],
   },
 ]);

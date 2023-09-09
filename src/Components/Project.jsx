@@ -11,7 +11,7 @@ const Project = () => {
         GitHub</h1>
       <div className="grid md:grid-cols-2  mx-3 md:mx-0  gap-5 my-5  ">
         {projects.map((project) => (
-          <div className=" card md:w-96 bg-base-100 shadow-xl  relative aos-init aos-animate">
+          <div className=" card md:w-96 bg-base-100 shadow-xl  relative aos-init aos-animate" key={project.id}>
             <figure className="transition-transform duration-500 transform ease-in-out hover:scale-110 hover:opacity-40">
               <img className="h-[200px]" src={project.img} alt="" />
             </figure>
