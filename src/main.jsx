@@ -4,6 +4,7 @@ import App from './App.jsx'
 import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './Components/Home.jsx'
+import Project from './Components/Project.jsx'
 
 const router = createBrowserRouter([
   {
@@ -14,12 +15,15 @@ const router = createBrowserRouter([
        path:'/',
        element:<Home/>
       },
+      {
+        path:'/project',
+        element:<Project/>,
+        loader:()=>fetch('project.json')
+      },
     ],
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
    <RouterProvider router={router} />
-  </React.StrictMode>,
 )

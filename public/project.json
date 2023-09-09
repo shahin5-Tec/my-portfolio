@@ -1,0 +1,37 @@
+[
+    {
+      "id": "1",
+      "img": "/src/assets/book-store.png",
+      "name": "Book-Store",
+      "technology": "React, Javascripts,Tailwlind etc.",
+      "liveLink": "https://unrivaled-meerkat-2fbe41.netlify.app/"
+     
+    },
+   
+    
+    {
+      "id": "2",
+      "img": "/src/assets/knowldge-cafe.png",
+      "name": "Knowldge-Cafe",
+      "technology": "React, Javascripts.Tailwlind etc. ",
+      "liveLink": "https://reliable-daffodil-ab6393.netlify.app/"
+    },
+    {
+      "id": "3",
+      "img": "/src/assets/Ema-jhon.png",
+      "name": "Ema-John E-commerce",
+      "technology": "React, JavaScript,CSS ,TailwindCSS, etc.",
+      "liveLink": "https://coruscating-brigadeiros-51e075.netlify.app/"
+      
+    },
+  
+    {
+      "id": "4",
+      "img": "/src/assets//AI-universe.png",
+      "name": "AI-Universe",
+      "technology": "JavaScript,CSS, TailwindCSS, etc.",
+      "liveLink": "https://jocular-semolina-1c73bb.netlify.app/"
+    }
+  
+    
+  ]
