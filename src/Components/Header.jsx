@@ -79,7 +79,7 @@ const Header = () => {
                     <Link to="/" className="flex items-center ">
                       <BoltIcon class="h-6 w-6 text-blue-500" />
                       <span className="text-xl ms-2 font-bold -tracking-wide">
-                        nextPage
+                       Portfolio
                       </span>
                     </Link>
                   </div>
@@ -109,12 +109,22 @@ const Header = () => {
                     </li>
                     <li>
                       <NavLink
-                        to="/books"
+                        to="/project"
                         className={({ isActive }) =>
                           isActive ? "  text-blue-600" : ""
                         }
                       >
-                        Books
+                        Project
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        to="/skill"
+                        className={({ isActive }) =>
+                          isActive ? "  text-blue-600" : ""
+                        }
+                      >
+                        Skills
                       </NavLink>
                     </li>
                     <li>
@@ -124,7 +134,17 @@ const Header = () => {
                           isActive ? "  text-blue-600" : ""
                         }
                       >
-                        About
+                        About Me
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        to="/contact"
+                        className={({ isActive }) =>
+                          isActive ? "  text-blue-600" : ""
+                        }
+                      >
+                        Contact Me
                       </NavLink>
                     </li>
                   </ul>

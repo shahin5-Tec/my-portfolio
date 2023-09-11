@@ -4,7 +4,7 @@
       "img": "/src/assets/book-store.png",
       "name": "Book-Store",
       "technology": "React, Javascripts,Tailwlind etc.",
-      "liveLink": "https://unrivaled-meerkat-2fbe41.netlify.app/"
+      "liveLink": "https://book-store-next-page.netlify.app/"
      
     },
    
@@ -14,7 +14,7 @@
       "img": "/src/assets/knowldge-cafe.png",
       "name": "Knowldge-Cafe",
       "technology": "React, Javascripts.Tailwlind etc. ",
-      "liveLink": "https://reliable-daffodil-ab6393.netlify.app/"
+      "liveLink": "https://knowldge-cafe.netlify.app/"
     },
     {
       "id": "3",
@@ -29,8 +29,8 @@
       "id": "4",
       "img": "/src/assets//AI-universe.png",
       "name": "AI-Universe",
-      "technology": "JavaScript,CSS, TailwindCSS, etc.",
-      "liveLink": "https://jocular-semolina-1c73bb.netlify.app/"
+      "technology": "React, JavaScript,CSS ,TailwindCSS, etc.",
+      "liveLink": "https://ai-universee.netlify.app/"
     }
   
     
