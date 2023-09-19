@@ -18,16 +18,12 @@ const Home = () => {
             </h1>
            
             <p className="py-6 text-xl font-mono">
-              Highly motivated with a Basic understanding of web development,
-              also doing Bachelor of Science in Computer Science and
-              Engineering. Who is ready to take challenges. I believe that
-              working smart is more important than working hard for gaining
-              success, and consistency is the key to success.
+            I am a highly motivated individual currently pursuing a Bachelor of Science in Computer Science and Engineering. With a basic understanding of web development, I am ready to take on new challenges in the field of technology.To me, consistency is the key to unlocking the doors of success. I am passionate about learning and growing in the world of computer science, and I'm excited to apply my knowledge and determination to tackle the challenges that come my way.
             </p>
             <div>
-              <h1 className="text-3xl text-center font-serif my-5">Find Me</h1>
+              <h1 className="text-3xl  font-serif my-5">Find Me</h1>
 
-              <div className="text-center">
+              <div >
                  <a
                   href="https://github.com/shahin5-Tec" target="_blank"
                   className="btn bg-white hover:btn-warning w-20 h-16 ml-3"

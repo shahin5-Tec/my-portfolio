@@ -26,8 +26,8 @@ const AboutMe = () => {
             </h1>
             <h1 className="text-4xl md:mt-12">Front-End Developer</h1>
             <p className="text-xl font-mono md:mt-3">
-              I am a self-motivated mainly Front-End Web Developer with
-              knowledge in React.js, JavaScript, HTML, CSS, Bootstrap, Tailwind and mobile responsive web development. Also i have some knowledge about C, C++, Data Structure and Algorithm.
+              I am a self-motivated Front-End Web Developer
+              My expertise spans a variety of technologies, including React.js, JavaScript, HTML, CSS, Bootstrap, and Tailwind, allowing me to create visually stunning and highly functional websites and mobile responsive web development.I also have a solid foundation in programming languages such as C and C++. My knowledge of Data Structures and Algorithms my problem-solving abilities, enabling me to create efficient and performant web applications.
             </p>
             <div className="md:mt-3">
               <p className="flex items-center mt-2">

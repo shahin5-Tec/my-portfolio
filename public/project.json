@@ -27,7 +27,7 @@
   
     {
       "id": "4",
-      "img": "/src/assets//AI-universe.png",
+      "img": "/src/assets/AI-universe.png",
       "name": "AI-Universe",
       "technology": "React, JavaScript,CSS ,TailwindCSS, etc.",
       "liveLink": "https://ai-universee.netlify.app/"

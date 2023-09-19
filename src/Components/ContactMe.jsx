@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import bg from "../assets/Touch-the-universe-2560x1440.jpg";
+import bg from "../assets/touch-the-universe.jpg";
 
 
 const ContactMe = () => {
@@ -28,7 +28,6 @@ const ContactMe = () => {
       <div data-aos="fade-right" data-aos-duration="1500">
         <div className="text-center font-serif text-white py-10">
           <h3 className="text-xl ">Contact Me</h3>
-          <h1 className="text-4xl ">Get in Touch</h1>
         </div>
         <form
           ref={form}
@@ -60,7 +59,7 @@ const ContactMe = () => {
           ></textarea>
           <div className="text-center">
             <input
-              className="btn btn-secondary hover:btn-primary md:px-32 mt-3"
+              className="btn btn-secondary hover:btn-success md:px-32 mt-3"
               type="submit"
               value="Submit"
             />

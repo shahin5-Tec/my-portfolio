@@ -11,7 +11,7 @@ const Footer = () => {
             <img src={img} alt="" />
           </div>
         </div>
-        <p>Copyright © 2022 - All right reserved</p>
+        <p className="ms-3">Copyright © 2022 - All right reserved</p>
       </div>
       <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
         <a target="_blank" href="https://github.com/shahin5-Tec">
