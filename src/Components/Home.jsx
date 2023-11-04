@@ -12,16 +12,16 @@ const Home = () => {
       <div className="hero min-h-screen mt-20 md:mb-20 md:mt-0">
         <div className="hero-content flex-col lg:flex-row ">
           <div className="md:text-center text-justify text-white lg:text-left  md:w-1/2">
-            <h1 className="md:text-5xl text-2xl font-bold font-serif">
+            <h1 className="md:text-4xl text-2xl font-bold font-serif">
               Hi, <br />{" "}
-              <span className="md:text-3xl">This is Md Shahin Hossain</span>
+              <span className="md:text-2xl">This is Md Shahin Hossain</span>
             </h1>
            
-            <p className="py-6 text-xl font-mono">
+            <p className="py-6 text-lg font-mono">
             I am a highly motivated individual currently pursuing a Bachelor of Science in Computer Science and Engineering. With a basic understanding of web development, I am ready to take on new challenges in the field of technology.To me, consistency is the key to unlocking the doors of success. I am passionate about learning and growing in the world of computer science, and I'm excited to apply my knowledge and determination to tackle the challenges that come my way.
             </p>
             <div>
-              <h1 className="text-3xl  font-serif my-5">Find Me</h1>
+              <h1 className="text-2xl  font-serif my-5">Find Me</h1>
 
               <div >
                  <a
@@ -45,9 +45,11 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div>
-            <img className="w-full  h-96" src={img1} alt="" />
+         <div className="avatar">
+         <div className=" w-96 rounded-full ">
+            <img  src={img1} alt="" />
           </div>
+         </div>
         </div>
       </div>
     </div>
